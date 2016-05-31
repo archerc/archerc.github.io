@@ -9,7 +9,7 @@ $$
 $$
 x(t;T) = \left\{ 
 \begin{array}{rl}
-A & t\_0 \le t < t\_0 + T \\
+A & t_0 \le t < t_0 + T \\
 0 & \text{else} 
 \end{array} 
 \right.
