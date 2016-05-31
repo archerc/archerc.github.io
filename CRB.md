@@ -55,4 +55,3 @@ $$
 对于小数部分，因为对数似然函数与小数部分无关，实质上无法估计，也就无所谓精度。
 
 
-<link rel="stylesheet" href="style.css" />
