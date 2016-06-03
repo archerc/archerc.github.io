@@ -1,9 +1,10 @@
 ---
 layout: page
-title: simple site
+title:  My Home Page
 tagline: Easy websites with GitHub Pages
 description: Minimal tutorial on making a simple website with GitHub Pages
 ---
+
 
 [Github Pages](http://pages.github.com) provide a simple way to make a
 website using
@@ -12,7 +13,7 @@ website using
 
 For me, the painful aspects of making a website are
 
-- Working with html and css
+- Working with html and css [CRB](http://archerc.github.com/pages/CRB.html)
 - Finding a hosting site
 - Transferring stuff to the hosting site
 
