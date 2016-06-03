@@ -13,7 +13,7 @@ website using
 
 For me, the painful aspects of making a website are
 
-- Working with html and css [CRB](http://archerc.github.com/pages/CRB.html)
+- Working with html and css [CRB](/pages/CRB.html)
 - Finding a hosting site
 - Transferring stuff to the hosting site
 
