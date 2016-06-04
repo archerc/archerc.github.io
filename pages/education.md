@@ -7,7 +7,7 @@ description:
 
 最近， [这篇文章](https://mp.weixin.qq.com/s?__biz=MzA4NzM1Nzg3MA==&mid=2657302219&idx=1&sn=a526998cdc2fa5b011a0a836d11bf2ab&scene=1&srcid=0602UbzhtRRfCUpzqI2IFYB1&key=f5c31ae61525f82e288ad2679fb9b67b31270399ef4df4900759c452cb888093e58d3484ca53e5248edbfee662af99cd&ascene=0&uin=NTQ0ODg2MzAw&devicetype=iMac+MacBookAir6%2C2+OSX+OSX+10.11.5+build(15F34)&version=11020201&pass_ticket=HxQsjZL1P8r4VpJXZj0UteoeNV2kTCZwgYNl2cWn%2FruKmgRoygEJUUauQTjFVDtM)引起了老婆的严重焦虑。当然，引起焦虑的不只是这篇文章，还有一些周围的有学龄孩子的亲戚朋友所发生的各种事情和面对的现状，这篇文章只是一个集中的引爆点而已。
 
-作为对这种焦虑的回应，我这里写一下自己对教育问题的一些不成熟的看法和思考，请批评指正。
+作为对这种焦虑的回应，我这里写一下自己对教育问题的一些不成熟的看法和思考，欢迎讨论交流。
 
 ## 教育的目的
 
