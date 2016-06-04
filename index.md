@@ -22,4 +22,6 @@ description: 陈新亮的个人主页[建设中]
 
 # 教育
 
+- [关于教育问题的一点思考](/pages/education.html)
 
+- [重视家庭教育，好好经营未来](/pages/parents.html)
