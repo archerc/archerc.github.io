@@ -1,10 +1,8 @@
-# 信号处理
+---
+layout: page
+title:  My Home Page
+tagline: Easy websites with GitHub Pages
+description: 
+---
 
-## [信号宽度的估计精度分析](/pages/CRB.html)
 
-
-# 软件技巧
-
-## [Git](/pages/git.html)
-
-## [Markdown + Mathjax](/pages/markdown_mathjax.html)

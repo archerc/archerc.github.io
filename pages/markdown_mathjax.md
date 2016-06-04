@@ -1,3 +1,9 @@
+---
+layout: page
+title: "使用[Markdown]+[Mathjax] 进行科技文档写作、交流与讨论"
+description: ""
+---
+
 # 使用[Markdown]+[Mathjax] 进行科技文档写作、交流与讨论
 
 ## 为什么?
