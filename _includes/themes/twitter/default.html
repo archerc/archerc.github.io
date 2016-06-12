@@ -25,6 +25,22 @@
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
+    <link rel="stylesheet" href="/stylesheets/style.css" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/theorem.css" type="text/css">
+    <script type="text/javascript"
+	    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+extensions: ["tex2jax.js"], 
+jax: ["input/TeX", "output/HTML-CSS"],
+tex2jax: {
+inlineMath: [ ['$', '$'], ["\\(", "\\)"] ], 
+displayMath: [ ['$$', '$$'], ["\\[", "\\]"] ],
+processEscapes: true
+}
+});
+    </script>
   </head>
 
   <body>
