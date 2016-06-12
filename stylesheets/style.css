@@ -1,15 +1,42 @@
 body{
-    padding: 2em;
-    border: solid yellow;
-    font-family: Helvetica, SimHei, arial, sans-serif;
-    font-size: 26px;
+    display: block;
+    margin: 0 1.5em;
+    align: center;
+    font-size: 24px;
+    font-family: Helvetica, arial, sans-serif;
     line-height: 1.6;
+    background-color: #f0f0ff;  /* gb(199, 237, 204); */
+}
+
+.container {
+    background-color: #f0f0ff; 
+    display: block;
+    align: center;
+    border: solid red;
+    margin: 2em auto auto auto;
+}
+
+.page-header {
+    display: block;
+    border: solid yellow;
+    margin: 0 0 0 0;
+    padding: 0 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 48px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: monospace;
+    -webkit-font-smoothing: antialiased;
+    cursor: text;
+    display: block;
+    position: relative; 
 }
 
 h1 {
+    font-size: 28px;
     padding-top: 10px;
     padding-right: 0.25em;
     padding-bottom: 2ex;
@@ -17,6 +44,7 @@ h1 {
     background-color: solid blue;
 }
 
+/*
 h2, h3 {
     padding: 10px;
     border: red;
@@ -52,15 +80,6 @@ a.anchor {
    top: 0;
    left: 0;
    bottom: 0; }
-
-h1, h2, h3, h4, h5, h6 {
-   font-family: SimHei, monospace;
-   margin: 20px 0 10px;
-   padding: 0;
-   font-weight: bold;
-   -webkit-font-smoothing: antialiased;
-   cursor: text;
-   position: relative; }
 
 h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
    text-decoration: none; }
@@ -325,3 +344,4 @@ sup {
 	 }
 }
 
+*/
