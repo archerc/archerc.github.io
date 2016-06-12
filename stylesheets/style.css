@@ -1,3 +1,32 @@
+body{
+    padding: 2em;
+    border: solid yellow;
+}
+
+h1 {
+    padding-top: 10px;
+    padding-right: 0.25em;
+    padding-bottom: 2ex;
+    padding-left: 20px;
+    background-color: solid blue;
+}
+
+h2, h3 {
+    padding: 10px;
+    border: red;
+    font-weight: bold;
+    font-style: bold;
+    font-family: STHeiti;
+}
+
+p {
+    padding: 0em;
+    text-indent: 2em;
+    border: blue;
+}
+
+li {
+}
 body {
    font-family: Helvetica, SimHei, arial, sans-serif;
    font-size: 26px;
