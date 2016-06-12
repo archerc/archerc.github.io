@@ -10,7 +10,7 @@ description: 陈新亮的个人主页[建设中]
 
 # 物理
 
-- [量子雷达原理](/page/physics.html)
+- [量子雷达原理](/pages/physics.html)
 
 # 工程
 
