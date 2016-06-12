@@ -1,6 +1,12 @@
 body{
     padding: 2em;
     border: solid yellow;
+    font-family: Helvetica, SimHei, arial, sans-serif;
+    font-size: 26px;
+    line-height: 1.6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -27,14 +33,6 @@ p {
 
 li {
 }
-body {
-   font-family: Helvetica, SimHei, arial, sans-serif;
-   font-size: 26px;
-   line-height: 1.6;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   background-color: white;
-   padding: 10px; }
 
 body > *:first-child {
    margin-top: 0 !important; }
