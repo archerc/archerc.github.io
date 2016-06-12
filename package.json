@@ -1,8 +1,8 @@
 {
-  "name": "your-website-name",
+  "name": "archerc.bitbucket.org",
   "version": "1.0.0",
   "private": true,
-  "repo": "https://bitbucket.org/account-name/my-website.git",
+  "repo": "https://bitbucket.org/archerc/archerc.bitbucket.org",
   "_aerobatic": {
     "clientConfigVar": "_global",
     "omitClientConfigVar": false,
