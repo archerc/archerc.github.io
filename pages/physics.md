@@ -24,20 +24,20 @@ $$
 **最小作用量原理**: 系统运行的实际路径是使得作用量达到极值的路径。
 
 \begin{align}
-\delta S & = \int_{t_1}^{t_2}{\delta Ldt} \\
-& = \int_{t_1}^{t_2}{\Big(\frac{\partial L}{\partial q_a}\delta q_a + 
-\frac{\partial L}{\partial \dot{q_a}}\delta \dot{q}_a \Big)dt} \\
-& = \int_{t_1}^{t_2}{\Big[\frac{\partial L}{\partial q_a}\delta q_a 
-- \frac{d}{dt}\left(\frac{\partial L}{\partial\dot{q}_a}\right)\delta{q}_a \Big]dt} 
-+ \int_{t_1}^{t_2}{\Big[\frac{d}{dt}\left(\frac{\partial 
-L}{\partial\dot{q}_a}\right)\delta{q}_a + \frac{\partial 
-L}{\partial\dot{q}_a}\delta\dot{q}_a \Big] dt} \\
-& =  \int_{t_1}^{t_2}{\Big[\frac{\partial L}{\partial q_a} 
-- \frac{d}{dt}\left(\frac{\partial L}{\partial\dot{q}_a}\right) \Big]\delta{q}_adt} 
-+ \Big(\frac{\partial L}{\partial\dot{q}_a}\delta{q}_a\Big)\Big\vert_{t_1}^{t_2}   
+\delta S & = \int\_{t\_1}^{t\_2}{\delta Ldt} \\\
+& = \int\_{t\_1}^{t\_2}{\Big(\frac{\partial L}{\partial q\_a}\delta q\_a + 
+\frac{\partial L}{\partial \dot{q\_a}}\delta \dot{q}\_a \Big)dt} \\\
+& = \int\_{t\_1}^{t\_2}{\Big[\frac{\partial L}{\partial q\_a}\delta q\_a 
+- \frac{d}{dt}\left(\frac{\partial L}{\partial\dot{q}\_a}\right)\delta{q}\_a \Big]dt} 
++ \int\_{t\_1}^{t\_2}{\Big[\frac{d}{dt}\left(\frac{\partial 
+L}{\partial\dot{q}\_a}\right)\delta{q}\_a + \frac{\partial 
+L}{\partial\dot{q}\_a}\delta\dot{q}\_a \Big] dt} \\\
+& =  \int\_{t\_1}^{t\_2}{\Big[\frac{\partial L}{\partial q\_a} 
+- \frac{d}{dt}\left(\frac{\partial L}{\partial\dot{q}\_a}\right) \Big]\delta{q}\_adt} 
++ \Big(\frac{\partial L}{\partial\dot{q}\_a}\delta{q}\_a\Big)\Big\vert\_{t\_1}^{t\_2}   
 \end{align}
-其中 $\delta{q}_a$是路径的变分，由于端点固定，$\delta{q}_a(t_1) = 
-\delta{q}_a(t_2) = 0$.
+其中 $\delta{q}\_a$是路径的变分，由于端点固定，$\delta{q}\_a(t\_1) = 
+\delta{q}\_a(t\_2) = 0$.
 
 根据**最小作用量原理**， 对所有满足上述条件的$\delta{q}_a(t)$，有$\delta{S} = 0$， 可以导出
 
@@ -90,23 +90,23 @@ $$
 
 \begin{align}
 \frac{dF}{dt} & =
-\frac{d}{dt}\Big(\frac{\partial{L}}{\partial\dot{q}_a}\Big)  
-\frac{\partial{Q}_a}{\partial{s}}\Big\vert_{s=0} + 
-\frac{\partial{L}}{\partial\dot{q}_a}
-\frac{\partial\dot{Q}_a}{\partial{s}}\Big\vert_{s=0}  
-\\ & = \frac{\partial{L}}{\partial{q}_a}
-\frac{\partial{Q}_a}{\partial{s}}\Big\vert_{s=0} + 
-\frac{\partial{L}}{\partial\dot{q}_a}
-\frac{\partial\dot{Q}_a}{\partial{s}}\Big\vert_{s=0}  
+\frac{d}{dt}\Big(\frac{\partial{L}}{\partial\dot{q}\_a}\Big)  
+\frac{\partial{Q}\_a}{\partial{s}}\Big\vert\_{s=0} + 
+\frac{\partial{L}}{\partial\dot{q}\_a}
+\frac{\partial\dot{Q}\_a}{\partial{s}}\Big\vert\_{s=0}  
+\\\ & = \frac{\partial{L}}{\partial{q}\_a}
+\frac{\partial{Q}\_a}{\partial{s}}\Big\vert\_{s=0} + 
+\frac{\partial{L}}{\partial\dot{q}\_a}
+\frac{\partial\dot{Q}\_a}{\partial{s}}\Big\vert\_{s=0}  
 \qquad\qquad \text{根据拉格朗日运动方程}
-\\ & =  \frac{\partial}{\partial{s}}{L(Q_a(s, t), \dot{Q}_a(s,t), t)}\Big\vert_{s=0}
-\\ &= 0
+\\\ & =  \frac{\partial}{\partial{s}}{L(Q\_a(s, t), \dot{Q}\_a(s,t), t)}\Big\vert\_{s=0}
+\\\ &= 0
 \end{align}
 
 
 注： 为使表达简洁，上面的表达式采用了**爱因斯坦求和规则**，
 同一项中下标重复出现则需对该指标所有可能的值进行求和，
-即省略求和符号$\sum_{a=1}^{n}$.
+即省略求和符号$\sum\_{a=1}^{n}$.
 
 ## 哈密顿表述
 
@@ -123,12 +123,14 @@ $$
 称为**动量**.
 
 经过上述**勒让德(Legendre)变换**， **拉格朗日运动方程**变为如下的**哈密顿运动方程**:
+
 $$
 \dot{q}^a = \frac{\partial{H}}{\partial{p^a}}, \qquad
 \dot{p}^a = - \frac{\partial{H}}{\partial{q_a}}
 $$
+
 哈密顿表述具有某种对称性：这里广义坐标$q_a$与对应的广义动量$p^a$的地位是平等的，
-(q, p) 所有可能的取值集合称为**相空间**。
+\\((q, p)\\) 所有可能的取值集合称为**相空间**。
 
 
 **泊松括号**:  $f(q, p)$和$g(q, p)$是两个相空间上的函数，它们的**泊松括号**定义为
@@ -140,23 +142,23 @@ $$
 泊松括号具有以下性质：
 
 \begin{align}
-\{f, g\} & = -\{g, f\} \\
+\{f, g\} & = -\{g, f\} \\\
 \{p^a, p^b\} & 
 = \frac{\partial{p^a}}{\partial{q_i}} \frac{\partial{p^b}}{\partial{p^i}} 
 - \frac{\partial{p^a}}{\partial{p^i}} \frac{\partial{p^b}}{\partial{q_i}} 
   = \frac{\partial{p^a}}{\partial{q_b}} - \frac{\partial{p^b}}{\partial{q_a}} 
   = \frac{\partial^2{L}}{\partial{q_b}\partial{q_a}} - \frac{\partial^2{L}}{\partial{q_a}\partial{q_b}} 
-= 0 \\
+= 0 \\\
 \{q_a, q_b\} & 
 = \frac{\partial{q_a}}{\partial{q_i}} \frac{\partial{q_b}}{\partial{p^i}} 
 - \frac{\partial{q_a}}{\partial{p^i}} \frac{\partial{q_b}}{\partial{q_i}} 
   = \frac{\partial{q_b}}{\partial{p^a}} - \frac{\partial{q_a}}{\partial{p^b}} 
   = \Big(\frac{\partial{p^a}}{\partial{q_b}}\Big)^{-1} - \Big(\frac{\partial{p^b}}{\partial{q_a}}\Big)^{-1}
-= 0 \\
+= 0 \\\
 \{q_a, p^b\} & 
 = \frac{\partial{q_a}}{\partial{q_i}} \frac{\partial{p^b}}{\partial{p^i}} 
 - \frac{\partial{q_a}}{\partial{p^i}} \frac{\partial{p^b}}{\partial{q_i}} 
-= \delta_{a}^{b} \\
+= \delta_{a}^{b} \\\
 \end{align}
 
 
@@ -164,7 +166,7 @@ $$
 
 在经典力学中，系统的状态用相空间的一个点$(q_a, p_a)$来表示； 
 在量子力学中，系统的状态用**希尔伯特空间**中的一个向量$\mid\psi\rangle$来表示。
-经典力学中的物理量$f(q,p)$ 对应为量子力学中的酉算子\hat{f}$。
+经典力学中的物理量$f(q,p)$ 对应为量子力学中的酉算子$\hat{f}$。
 
 两个算子$\hat{f}$与$\hat{g}$的対易算子定义如下：
 $$
@@ -193,12 +195,12 @@ $$
 $$
 它具有确定的能量，对应的本征值$E$即能量。
 
-上面的**薛定谔方程**是在**薛定谔表象**中描述量子系统的，即状态$|\psi\rangle$随时间演化，而算子$\hat{O}$不随时间变化。
+上面的**薛定谔方程**是在**薛定谔表象**中描述量子系统的，即状态\\(\|\psi\rangle\\)随时间演化，而算子\\(\hat{O}\\)不随时间变化。
 
-**海森堡表象**则刚好相反，即状态$|\psi\rangle$不随时间变化，而算子$\hat{O}$随时间演化。两者之间的关系为
+**海森堡表象**则刚好相反，即状态\\(\|\psi\rangle\\)不随时间变化，而算子\\(\hat{O}\\)随时间演化。两者之间的关系为
 
 \begin{align}
-|\psi\rangle_H &= e^{i\hat{H}t/\hbar} |\psi\rangle_S \\
+|\psi\rangle_H &= e^{i\hat{H}t/\hbar} |\psi\rangle_S \\\
 \hat{O}_H &= e^{i\hat{H}t/\hbar} \hat{O}_S e^{-i\hat{H}t/\hbar} 
 \end{align}
 
