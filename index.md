@@ -10,6 +10,8 @@ description: 陈新亮的个人主页[建设中]
 
 # 物理
 
+- [量子雷达原理](/page/physics.html)
+
 # 工程
 
 - [信号宽度的估计精度分析](/pages/CRB.html)
