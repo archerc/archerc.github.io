@@ -1,0 +1,137 @@
+body {
+    font-size: 10.5pt;
+    font-family: "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    color: black;
+    background : #f0f0ff;
+    background-image: url('bg_grid.png')
+}
+.note, .warning, .caution, .important {
+    font-size: 14pt;
+    color: red;
+    background-color: #ffee40;
+}
+#tabBodyFrame {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#plus1 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+#tabBody {
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 48pt;
+    padding-right: 48pt;
+    padding-top: 24pt;
+    padding-bottom: 24pt;
+    border: 2pt solid #808080;
+    background : white;
+    text-align: justify;
+    display: block;
+    box-shadow: 10px 10px 10px #c0c0c0;
+    border-radius: 20pt;
+}
+#footer {
+    text-align: center;
+    margin-top: 9pt;
+}
+#vim_logo, #deplate_logo, #adsense1, #adsense2, #js51la, #rss {
+ display: inline-block;
+ margin: 2px;
+ vertical-align: middle;
+}
+a {
+    color: #4080c0;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    background-color: #f0f0ff;
+}
+code {
+    font-family : "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", "Courier", monospace;
+    background-color: #eeeeff;
+}
+.code {
+    font-family : "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", "Courier", monospace;
+    background-color: #ffffff;
+    border: #808080 1px solid;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 0.5em;
+    font-size: 9pt;
+    overflow: auto;
+}
+.verbatim {
+    font-size: 9pt;
+}
+h1 {
+    font-family: "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin-top: 28pt;
+    margin-bottom: 21pt;
+    padding-left: .5em;
+    font-size: 22pt;
+    border-left: 8px solid #8080c0;
+    border-bottom: 2px solid #8080c0;
+    font-weight: bold;
+}
+h2 {
+    font-family: "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin-top: 20pt;
+    margin-bottom: 15pt;
+    padding-left: .5em;
+    font-size: 16pt;
+    border-left: 4px solid #8080c0;
+    border-bottom: 1px solid #8080c0;
+    font-weight: bold;
+}
+h3 {
+    font-family: "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin-top: 16pt;
+    margin-bottom: 12pt;
+    padding-left: .5em;
+    font-size: 14pt;
+    border-left: 2px solid #8080c0;
+    border-bottom: 1px dashed #8080c0;
+    font-weight: bold;
+}
+h4 {
+    font-family: "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    font-size: 12pt;
+    font-weight: bold;
+}
+h5 {
+    font-family: "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin-top: 10pt;
+    margin-bottom: 5pt;
+    font-size: 12pt;
+    font-weight: bold;
+}
+h6 {
+    font-family: "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin-top: 5pt;
+    font-size: 12pt;
+}
+li {
+    line-height: 150%;
+}
+p {
+    text-indent : 2em;
+    font-size: 10.5pt;
+    line-height: 150%;
+}
+img {
+    border: 0;
+}
+#tags {
+    font-size: 9pt;
+    font-family: "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    color: black;
+    text-align: right;
+    float: right;
+}

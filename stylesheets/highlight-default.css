@@ -1,0 +1,54 @@
+.SpecialKey { color: #0000ff; }
+.NonText { font-weight: bold; color: #0000ff; }
+.Directory { color: #0000ff; }
+.ErrorMsg { color: #ffffff; background-color: #ff0000; }
+.IncSearch { }
+.Search { background-color: #ffff00; }
+.MoreMsg { font-weight: bold; color: #2e8b57; }
+.ModeMsg { font-weight: bold; }
+.LineNr { color: #a52a2a; }
+.Question { font-weight: bold; color: #2e8b57; }
+.StatusLine { }
+.StatusLineNC { }
+.VertSplit { }
+.Title { font-weight: bold; color: #ff00ff; }
+.Visual { background-color: #d3d3d3; }
+.VisualNOS { }
+.WarningMsg { color: #ff0000; }
+.WildMenu { color: #000000; background-color: #ffff00; }
+.Folded { color: #00008b; background-color: #d3d3d3; }
+.FoldColumn { color: #00008b; background-color: #808080; }
+.DiffAdd { background-color: #add8e6; }
+.DiffChange { background-color: #LightMagenta; }
+.DiffDelete { font-weight: bold; color: #0000ff; background-color: #e0ffff; }
+.DiffText { font-weight: bold; background-color: #ff0000; }
+.SignColumn { color: #00008b; background-color: #808080; }
+.Conceal { color: #d3d3d3; background-color: #a9a9a9; }
+.SpellBad { }
+.SpellCap { }
+.SpellRare { }
+.SpellLocal { }
+.Pmenu { background-color: #LightMagenta; }
+.PmenuSel { background-color: #808080; }
+.PmenuSbar { background-color: #808080; }
+.PmenuThumb { }
+.TabLine { background-color: #d3d3d3; }
+.TabLineSel { font-weight: bold; }
+.TabLineFill { }
+.CursorColumn { background-color: #Grey90; }
+.CursorLine { background-color: #Grey90; }
+.ColorColumn { background-color: #LightRed; }
+.Cursor { color: #ffffff; background-color: #000000; }
+.lCursor { color: #ffffff; background-color: #000000; }
+.MatchParen { background-color: #00ffff; }
+.Special { color: #6a5acd; }
+.Comment { color: #0000ff; }
+.Statement { font-weight: bold; color: #a52a2a; }
+.Type { font-weight: bold; color: #2e8b57; }
+.Constant { color: #ff00ff; }
+.Identifier { color: #008b8b; }
+.PreProc { color: #800080; }
+.Underlined { color: #6a5acd; }
+.Ignore { color: #ffffff; }
+.Error { color: #ffffff; background-color: #ff0000; }
+.Todo { color: #0000ff; background-color: #ffff00; }
